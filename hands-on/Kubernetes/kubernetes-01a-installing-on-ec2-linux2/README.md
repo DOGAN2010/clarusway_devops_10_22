@@ -83,8 +83,6 @@ At the end of the this hands-on training, students will be able to;
 sudo hostnamectl set-hostname <node-name-master-or-worker>
 bash
 ```
-sudo hostnamectl set-hostname KubeMaster bash
-sudo hostnamectl set-hostname KubeWorker bash
 
 - Install helper packages for Kubernetes.
 
