@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  BU TEMLATE LANUNCHES bi instance AYAGA KALDIRIYOR.
+  
+Resources:
+  MyEC2:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0c293f3f676ec4f90
+      InstanceType: t2.micro
+      KeyName: firstkey
+      SecurityGroups:
+        - SSH-HTTP-HTTPS
+      Tags:
+        - Key: Name
+          Value: dogan
